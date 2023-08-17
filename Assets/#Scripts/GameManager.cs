@@ -640,17 +640,12 @@ public class GameManager : MonoBehaviour
 
                 if (DEVICE == 0) // 데스크탑인 경우
                 {
-                    if (Input.GetMouseButtonDown(0))
+                    if (Input.GetMouseButton(0))
                     {
-                        if (holdingCard != null) _tCount = 0;
+                        if (Input.GetMouseButtonDown(1)) _tCount = 2;
                         else _tCount = 1;
                     }
-                    else if (Input.GetMouseButtonDown(1)) _tCount = 2;
-                    else
-                    {
-                        if (holdingCard != null) _tCount = 1;
-                        else _tCount = 0;
-                    }
+                    else _tCount = 0;
                 }
                 else // 안드로이드인 경우
                 {
@@ -951,7 +946,7 @@ public class GameManager : MonoBehaviour
                 }
                 else // 카드를 잡고있지 않는 경우
                 {
-                    if (_tCount == 1) // 좌클릭한 경우
+                    if (_tCount == 1 && moveMap == false) // 맵을 이동중이지 않을 때 좌클릭한 경우
                     {
                         CardManager _hitCard = GetHitCard(Physics2D.RaycastAll(cam.ScreenToWorldPoint(_posType), Vector2.zero, 1, cardLayerMask)); // 자신이 클릭한 카드를 기록한다.
 
@@ -1002,11 +997,15 @@ public class GameManager : MonoBehaviour
                                 days[2] = days[1]; // 잡았을때의 daysPercent를 기록한다.
                             }
                         }
-                        else
+                        else // 오브젝트가 없는 경우
                         {
                             SetInfoTarget(null); // 카드 정보를 변경한다.
-                            moveMap = !moveMap;
+                            moveMap = true; // 맵을 이동시킨다.
                         }
+                    }
+                    else if (_tCount == 0) // 손을 뗀 경우
+                    {
+                        moveMap = false; // 맵 이동을 멈춘다.
                     }
                 }
             }
