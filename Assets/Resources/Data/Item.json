@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "name": "SHOP_ITEM_NAME",
+      "num": 2,
+      "sprite": "Image/Friend/Char",
+      "objStrings": [ "-1", "Rebirth" ],
+      "type": "Item"
+    },
+    {
+      "name": "SHOP_ITEM_NAME",
+      "num": 3,
+      "sprite": "Image/Friend/Char",
+      "objStrings": [ "1", "true" ],
+      "type": "MaxCard"
+    },
+    {
+      "name": "SHOP_ITEM_NAME",
+      "num": 0,
+      "sprite": "Image/Friend/Char",
+      "objStrings": [ "3", "true" ],
+      "type": "Hp"
+    },
+    {
+      "name": "SHOP_ITEM_NAME",
+      "num": 1,
+      "sprite": "Image/Friend/Char",
+      "objStrings": [ "3", "true" ],
+      "type": "Atk"
+    }
+  ]
+}

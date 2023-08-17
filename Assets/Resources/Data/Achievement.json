@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "name": "Get Money",
+      "category": 0,
+      "sprite": "Image/Other/Coin_Pouch",
+      "max": 100
+    },
+    {
+      "name": "Most Damage",
+      "category": 0,
+      "sprite": "Image/Item/Shield/GladiatorShield",
+      "max": 10
+    },
+    {
+      "name": "Contect NPC",
+      "category": 0,
+      "sprite": "Image/Friend/Char",
+      "max": 1
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "title": [
+    {
+      "num": [ 0 ]
+    },
+    {
+      "num": [ 2 ]
+    },
+    {
+      "num": [ 3 ]
+    },
+    {
+      "num": [ 4 ]
+    }
+  ],
+  "data": [
+    {
+      "type": "Hp",
+      "increase": true,
+      "data" :  true,
+      "value": -1
+    },
+    {
+      "type": "Atk",
+      "increase": true,
+      "data": true,
+      "value": -1
+    },
+    {
+      "type": "",
+      "increase": true,
+      "data": true,
+      "value": 0
+    },
+    {
+      "type": "MaxCard",
+      "increase": true,
+      "data": true,
+      "value": -1
+    },
+    {
+      "type": "DestroyCard",
+      "increase": true,
+      "data": false,
+      "value": 1
+    },
+    {
+      "type": "DestroyCard",
+      "increase": true,
+      "data": false,
+      "value": -1
+    }
+  ]
+}

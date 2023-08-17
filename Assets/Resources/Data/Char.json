@@ -1,0 +1,43 @@
+﻿{
+  "hp": 1,
+  "atk": 1,
+  "money": 1000,
+  "maxCard": 0,
+  "coolTime": 0,
+  "days": [ 0, 0 ],
+  "languege": 0,
+  "bossCount": 0,
+  "items": [],
+  "achievements": [ 0, 0, 0 ],
+  "shopItem": [
+    {
+      "num": -1,
+      "money": -1
+    },
+    {
+      "num": -1,
+      "money": -1
+    },
+    {
+      "num": -1,
+      "money": -1
+    },
+    {
+      "num": -1,
+      "money": -1
+    },
+    {
+      "num": -1,
+      "money": -1
+    },
+    {
+      "num": -1,
+      "money": -1
+    },
+    {
+      "num": -1,
+      "money": -1
+    }
+  ],
+  "myCards": []
+}

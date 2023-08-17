@@ -1,0 +1,41 @@
+fileFormatVersion: 2
+guid: 87e3981c571ecba47bde105c210fbf24
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - cam: {instanceID: 0}
+  - Boss: {instanceID: 0}
+  - map: {instanceID: 0}
+  - achievementUI: {instanceID: 0}
+  - achievementInfo_UI: {instanceID: 0}
+  - achievementInfo_Title: {instanceID: 0}
+  - achievementInfo_Image: {instanceID: 0}
+  - achievementInfo_Text: {instanceID: 0}
+  - myMoney: {instanceID: 0}
+  - daysText: {instanceID: 0}
+  - daysPercentImage: {instanceID: 0}
+  - defaultUI: {instanceID: 0}
+  - noticeText: {instanceID: 0}
+  - missionText: {instanceID: 0}
+  - missionRect: {instanceID: 0}
+  - loadingObj: {instanceID: 0}
+  - noticeUI: {instanceID: 0}
+  - resultsUI: {instanceID: 0}
+  - results_Title: {instanceID: 0}
+  - results_Text: {instanceID: 0}
+  - choiceCardUI: {instanceID: 0}
+  - cardInfoUI: {instanceID: 0}
+  - smallText: {fileID: 9041111660269034254, guid: d8c669270e4008f409e67a1fc97b36c6, type: 3}
+  - choiceCard: {fileID: 5244107279281545558, guid: af4a83675697df1478fe266ad69faa56, type: 3}
+  - cardInfo: {fileID: 5701892422230264010, guid: 42a53c214bb447941b5948202a19c9c2, type: 3}
+  - achievement_Title: {fileID: 8338682686276253731, guid: f326a9ea2621a354ab3004cf282eebf9, type: 3}
+  - achievement_Mask: {fileID: 8322128863621340787, guid: ec8aa40e687a4bf4196bcbf2d96cf819, type: 3}
+  - achievement_Item: {fileID: 4223493930299291540, guid: ec133b122e769a54d9cb9e4154c65882, type: 3}
+  - holdingCard: {instanceID: 0}
+  - holdingCard_FCard: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

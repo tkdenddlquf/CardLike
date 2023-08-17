@@ -1,0 +1,355 @@
+{
+  "data": [
+    {
+      "category": "Friend",
+      "atk": 5,
+      "hp": 5,
+      "coolTime": 0.5,
+      "name": "FRIEND_CARD_NAME",
+      "num": 0,
+      "sprite": "Image/Friend/Char"
+    },
+    {
+      "category": "Boss",
+      "atk": 70,
+      "hp": 70,
+      "coolTime": 1,
+      "name": "BOSS_CARD_NAME",
+      "num": 0,
+      "sprite": "Image/Enemy/Boss"
+    },
+    {
+      "category": "Special",
+      "atk": 0,
+      "hp": 2,
+      "coolTime": 0,
+      "name": "SPECIAL_CARD_NAME",
+      "num": 0,
+      "sprite": "Image/Special/Shuffle"
+    },
+    {
+      "category": "NPC",
+      "atk": 0,
+      "hp": 0,
+      "coolTime": 0,
+      "name": "NPC_CARD_NAME",
+      "num": 0,
+      "sprite": "Image/Friend/Char"
+    },
+    {
+      "category": "Food",
+      "atk": 0,
+      "hp": 2,
+      "coolTime": 0,
+      "name": "FOOD_CARD_NAME",
+      "num": 0,
+      "sprite": "Image/Food/Apple"
+    },
+    {
+      "category": "Food",
+      "atk": 2,
+      "hp": 0,
+      "coolTime": 0,
+      "name": "FOOD_CARD_NAME",
+      "num": 1,
+      "sprite": "Image/Food/Cheese"
+    },
+    {
+      "category": "Food",
+      "atk": 2,
+      "hp": 1,
+      "coolTime": 0,
+      "name": "FOOD_CARD_NAME",
+      "num": 2,
+      "sprite": "Image/Food/ChickenLeg"
+    },
+    {
+      "category": "Enemy",
+      "atk": 5,
+      "hp": 17,
+      "coolTime": 0.6,
+      "name": "ENEMY_CARD_NAME",
+      "num": 0,
+      "sprite": "Image/Enemy/Enemy"
+    },
+    {
+      "category": "Enemy",
+      "atk": 3,
+      "hp": 11,
+      "coolTime": 0.5,
+      "name": "ENEMY_CARD_NAME",
+      "num": 1,
+      "sprite": "Image/Enemy/Mouse"
+    },
+    {
+      "category": "Enemy",
+      "atk": 4,
+      "hp": 13,
+      "coolTime": 0.6,
+      "name": "ENEMY_CARD_NAME",
+      "num": 2,
+      "sprite": "Image/Enemy/Rabbit"
+    },
+    {
+      "category": "Item",
+      "atk": 1,
+      "hp": 7,
+      "coolTime": 0.8,
+      "name": "SHIELD_CARD_NAME",
+      "num": 0,
+      "sprite": "Image/Item/Shield/SimpleShield"
+    },
+    {
+      "category": "Item",
+      "atk": 1,
+      "hp": 9,
+      "coolTime": 0.8,
+      "name": "SHIELD_CARD_NAME",
+      "num": 1,
+      "sprite": "Image/Item/Shield/SteelShield"
+    },
+    {
+      "category": "Item",
+      "atk": 0,
+      "hp": 7,
+      "coolTime": 0,
+      "name": "ARMOR_CARD_NAME",
+      "num": 0,
+      "sprite": "Image/Item/Armor/BattleArmor"
+    },
+    {
+      "category": "Item",
+      "atk": 0,
+      "hp": 5,
+      "coolTime": 0,
+      "name": "ARMOR_CARD_NAME",
+      "num": 1,
+      "sprite": "Image/Item/Armor/SimpleArmor"
+    },
+    {
+      "category": "Item",
+      "atk": 0,
+      "hp": 5,
+      "coolTime": 0,
+      "name": "HELMET_CARD_NAME",
+      "num": 0,
+      "sprite": "Image/Item/Helmet/HawkHelmet"
+    },
+    {
+      "category": "Item",
+      "atk": 0,
+      "hp": 6,
+      "coolTime": 0,
+      "name": "HELMET_CARD_NAME",
+      "num": 1,
+      "sprite": "Image/Item/Helmet/KnightHelmet"
+    },
+    {
+      "category": "Item",
+      "atk": 0,
+      "hp": 5,
+      "coolTime": 0,
+      "name": "HELMET_CARD_NAME",
+      "num": 2,
+      "sprite": "Image/Item/Helmet/ScoutHelmet"
+    },
+    {
+      "category": "Item",
+      "atk": 0,
+      "hp": 4,
+      "coolTime": 0,
+      "name": "HELMET_CARD_NAME",
+      "num": 3,
+      "sprite": "Image/Item/Helmet/SimpleHelmet"
+    },
+    {
+      "category": "Item",
+      "atk": 1,
+      "hp": 0,
+      "coolTime": 0.6,
+      "name": "OTHER_CARD_NAME",
+      "num": 0,
+      "sprite": "Image/Item/Other/Arrow"
+    },
+    {
+      "category": "Item",
+      "atk": 0,
+      "hp": 3,
+      "coolTime": 0,
+      "name": "OTHER_CARD_NAME",
+      "num": 1,
+      "sprite": "Image/Item/Other/Boots"
+    },
+    {
+      "category": "Item",
+      "atk": 1,
+      "hp": 0,
+      "coolTime": 0.8,
+      "name": "OTHER_CARD_NAME",
+      "num": 2,
+      "sprite": "Image/Item/Other/BronzeRing"
+    },
+    {
+      "category": "Item",
+      "atk": 2,
+      "hp": 2,
+      "coolTime": 0.5,
+      "name": "OTHER_CARD_NAME",
+      "num": 3,
+      "sprite": "Image/Item/Other/Gloves"
+    },
+    {
+      "category": "Item",
+      "atk": 3,
+      "hp": 0,
+      "coolTime": 0.4,
+      "name": "OTHER_CARD_NAME",
+      "num": 4,
+      "sprite": "Image/Item/Other/GoldenArrow"
+    },
+    {
+      "category": "Item",
+      "atk": 2,
+      "hp": 0,
+      "coolTime": 0.4,
+      "name": "OTHER_CARD_NAME",
+      "num": 5,
+      "sprite": "Image/Item/Other/GoldenRing"
+    },
+    {
+      "category": "Item",
+      "atk": 1,
+      "hp": 4,
+      "coolTime": 0.4,
+      "name": "OTHER_CARD_NAME",
+      "num": 6,
+      "sprite": "Image/Item/Other/SteelBoots"
+    },
+    {
+      "category": "Item",
+      "atk": 1,
+      "hp": 0,
+      "coolTime": 0.5,
+      "name": "OTHER_CARD_NAME",
+      "num": 7,
+      "sprite": "Image/Item/Other/SilverRing"
+    },
+    {
+      "category": "Item",
+      "atk": 5,
+      "hp": 4,
+      "coolTime": 0.6,
+      "name": "WEAPON_CARD_NAME",
+      "num": 1,
+      "sprite": "Image/Item/Weapon/BalancedSword"
+    },
+    {
+      "category": "Item",
+      "atk": 6,
+      "hp": 5,
+      "coolTime": 0.7,
+      "name": "WEAPON_CARD_NAME",
+      "num": 0,
+      "sprite": "Image/Item/Weapon/Cleaver"
+    },
+    {
+      "category": "Item",
+      "atk": 6,
+      "hp": 5,
+      "coolTime": 0.7,
+      "name": "WEAPON_CARD_NAME",
+      "num": 2,
+      "sprite": "Image/Item/Weapon/Club"
+    },
+    {
+      "category": "Item",
+      "atk": 4,
+      "hp": 0,
+      "coolTime": 0.6,
+      "name": "WEAPON_CARD_NAME",
+      "num": 3,
+      "sprite": "Image/Item/Weapon/Dagger"
+    },
+    {
+      "category": "Item",
+      "atk": 7,
+      "hp": 5,
+      "coolTime": 0.8,
+      "name": "WEAPON_CARD_NAME",
+      "num": 4,
+      "sprite": "Image/Item/Weapon/Hammer"
+    },
+    {
+      "category": "Item",
+      "atk": 5,
+      "hp": 0,
+      "coolTime": 0.5,
+      "name": "WEAPON_CARD_NAME",
+      "num": 5,
+      "sprite": "Image/Item/Weapon/HunterKnife"
+    },
+    {
+      "category": "Item",
+      "atk": 3,
+      "hp": 0,
+      "coolTime": 0.6,
+      "name": "WEAPON_CARD_NAME",
+      "num": 6,
+      "sprite": "Image/Item/Weapon/Katana"
+    },
+    {
+      "category": "Item",
+      "atk": 3,
+      "hp": 0,
+      "coolTime": 0.6,
+      "name": "WEAPON_CARD_NAME",
+      "num": 7,
+      "sprite": "Image/Item/Weapon/Knife"
+    },
+    {
+      "category": "Item",
+      "atk": 3,
+      "hp": 0,
+      "coolTime": 0.7,
+      "name": "WEAPON_CARD_NAME",
+      "num": 8,
+      "sprite": "Image/Item/Weapon/SimpleAxe"
+    },
+    {
+      "category": "Item",
+      "atk": 4,
+      "hp": 0,
+      "coolTime": 0.7,
+      "name": "WEAPON_CARD_NAME",
+      "num": 9,
+      "sprite": "Image/Item/Weapon/Staff"
+    },
+    {
+      "category": "Item",
+      "atk": 3,
+      "hp": 0,
+      "coolTime": 0.6,
+      "name": "WEAPON_CARD_NAME",
+      "num": 10,
+      "sprite": "Image/Item/Weapon/Sword"
+    },
+    {
+      "category": "Item",
+      "atk": 4,
+      "hp": 0,
+      "coolTime": 0.7,
+      "name": "WEAPON_CARD_NAME",
+      "num": 11,
+      "sprite": "Image/Item/Weapon/Wand"
+    },
+    {
+      "category": "Item",
+      "atk": 4,
+      "hp": 0,
+      "coolTime": 0.7,
+      "name": "WEAPON_CARD_NAME",
+      "num": 12,
+      "sprite": "Image/Item/Weapon/WoodWand"
+    }
+  ]
+}
